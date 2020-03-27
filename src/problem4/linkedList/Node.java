@@ -1,21 +1,19 @@
-
-package problem3.node;
-import problem3.student.Student;
+package problem4.linkedList;
 
 public class Node {
-    private Student data;
+    private int data;
     private Node next;
 
-    public Node(Student data) {
+    public Node(int data) {
         this.data = data;
         this.next = null;
     }
 
-    public Student getData() {
+    public int getData() {
         return data;
     }
 
-    public void setData(Student data) {
+    public void setData(int data) {
         this.data = data;
     }
 
