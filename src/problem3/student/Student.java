@@ -1,12 +1,14 @@
 package problem3.student;
 
 public class Student {
-    private String name;
-    private int rollNo;
 
-    public Student(String name, int rollNo) {
+    private String name;
+    private int rollNumber;
+
+    // constructor
+    public Student(String name, int rollNumber) {
         this.name = name;
-        this.rollNo = rollNo;
+        this.rollNumber = rollNumber;
     }
 
     public String getName() {
@@ -17,15 +19,15 @@ public class Student {
         this.name = name;
     }
 
-    public int getRollNo() {
-        return rollNo;
+    public int getRollNumber() {
+        return rollNumber;
     }
 
-    public void setRollNo(int rollNo) {
-        this.rollNo = rollNo;
+    public void setRollNumber(int rollNumber) {
+        this.rollNumber = rollNumber;
     }
 
     public String toString() {
-        return getName() + " " + getRollNo();
+        return getName() + " " + getRollNumber();
     }
 }

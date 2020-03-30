@@ -6,7 +6,6 @@ import problem1.node.TreeNode;
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
 
-    int count;
     private TreeNode rootNode;
 
     public TreeNode getRootNode() {
@@ -51,6 +50,8 @@ public class MyBinarySearchTree {
         printTreeInOrder(node);
     }
 
+    int count;
+
     private void printingLeftChild(TreeNode node) {
         if (node != null) {
 
@@ -88,10 +89,11 @@ public class MyBinarySearchTree {
 
     public void printLeftChildrenAndCount(TreeNode node) {
         count = 0;
-        System.out.print("Printing left children: ");
+        System.out.print("Printing the left children: ");
         printingLeftChild(node);
         System.out.println();
-        System.out.println("Total nodes with no left child: " + count);
+        System.out.println("Total the nodes with no left child: " + count);
         System.out.println();
     }
+
 }

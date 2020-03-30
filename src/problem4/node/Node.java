@@ -1,14 +1,17 @@
-package problem4.linkedList;
+package problem4.node;
 
 public class Node {
-    private int data;
-    private Node next;
 
+    private int data;   // data that each node carries
+    private Node next;  // pointer to next node
+
+    // constructor
     public Node(int data) {
         this.data = data;
-        this.next = null;
+        next = null;    // initially next pointing to null
     }
 
+    // getters and setters
     public int getData() {
         return data;
     }
