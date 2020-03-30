@@ -8,6 +8,7 @@ public class MyMain {
 
         MyBinarySearchTree tree = new MyBinarySearchTree();
 
+
         tree.insert(70);
         tree.insert(35);
         tree.insert(93);
