@@ -1,9 +1,4 @@
-package problem3.node;/*
- *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:13 PM
- */
+package problem3.node;
 
 import problem3.student.Student;
 
@@ -38,9 +33,9 @@ public class Node implements Comparable<Student> {
     public int compareTo(Student o) {
         int diff = this.data.getRollNumber() - o.getRollNumber();
         if (diff > 0) {
-            return -1;  // newNode will be inserted before node created with o
+            return -1;  // new Node will be inserted before node created with o
         } else {
-            return 1;   // newNode will be inserted after node created with o
+            return 1;   // new Node will be inserted after node created with o
         }
     }
 }

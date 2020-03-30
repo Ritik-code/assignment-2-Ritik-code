@@ -1,9 +1,4 @@
-/*
- *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:11 PM
- */
+
 package problem4.myqueue;
 // to create queue to store pre - order successor
 
@@ -25,7 +20,7 @@ public class MyQueue {
     // due to no limitation of size, element will always be added
     public void insertInQueue(int data) {
         Node newNode = new Node(data);
-        if (front == null) {    // means no array exists till now
+        if (front == null) {    // means no array exists till now.
             front = rear = newNode;
         } else {
             rear.setNext(newNode);
@@ -38,7 +33,7 @@ public class MyQueue {
         int response = -1;
         if (front == null) {
             System.out.println("Queue is empty.");
-        } else if (front.getNext() == null) {   // if queue size is 1
+        } else if (front.getNext() == null) {   // if Queue size is 1.
             response = front.getData();
             front = null;
             rear = null;
@@ -55,7 +50,7 @@ public class MyQueue {
         if (front == null) {
             System.out.println("No queue to print.");
         } else {
-            System.out.print("Printing Queue: ");
+            System.out.print("Printing the Queue: ");
             Node temp = front;
             while (temp != null) {
                 System.out.print(temp.getData());

@@ -1,9 +1,4 @@
-/*
- *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:06 PM
- */
+
 package problem5.main;
 
 import problem5.circularqueue.MyCircularQueue;
@@ -17,10 +12,10 @@ public class MyMain {
 
         MyCircularQueue circularQueue = new MyCircularQueue(5);
 
-        circularQueue.insertInQueue(new Student("Ajay", 2, 0));
-        circularQueue.insertInQueue(new Student("Rahul", 1, 1));
-        circularQueue.insertInQueue(new Student("Sonu", 0, 0));
-        circularQueue.insertInQueue(new Student("Amit", 2, 2));
+        circularQueue.insertInQueue(new Student("Ritik", 2, 0));
+        circularQueue.insertInQueue(new Student("Stark", 1, 1));
+        circularQueue.insertInQueue(new Student("Raj", 0, 0));
+        circularQueue.insertInQueue(new Student("Robin", 2, 2));
         System.out.println(Arrays.toString(circularQueue.printQueue()));
 
         circularQueue.deleteFromQueue();

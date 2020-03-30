@@ -22,7 +22,7 @@ public class LinkedList {
                     if (temp.compareTo(student) < 0) {
                         break;
                     }
-                    previous = temp;    // getting the node after which newNode need to be inserted
+                    previous = temp;    // getting the node after which new Node need to be inserted.
                     temp = temp.getNext();
                 }
                 assert previous != null;

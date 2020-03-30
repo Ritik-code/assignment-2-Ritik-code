@@ -1,9 +1,4 @@
-/*
- *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:15 PM
- */
+
 package problem3.myqueue;
 
 import problem3.linkedlist.LinkedList;
@@ -22,7 +17,7 @@ public class MyPriorityQueue {
     }
 
     public void printQueue() {
-        System.out.print("Printing queue: ");
+        System.out.print("Printing the queue: ");
         linkedList.printData();
         System.out.println();
     }
