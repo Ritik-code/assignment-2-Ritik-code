@@ -20,7 +20,7 @@ public class MyMain {
         System.out.println(queue.deleteFromQueue());
 
         queue.insertInQueue(new Student("Tony", 22));
-        queue.insertInQueue(new Student("Mony", 19));
+        queue.insertInQueue(new Student("Monny", 19));
         queue.printQueue();
     }
 }

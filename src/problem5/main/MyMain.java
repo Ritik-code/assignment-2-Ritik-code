@@ -6,7 +6,6 @@ import problem5.student.Student;
 
 import java.util.Arrays;
 
-//executable class
 public class MyMain {
     public static void main(String[] args) {
 
